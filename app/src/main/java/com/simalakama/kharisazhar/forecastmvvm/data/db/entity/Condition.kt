@@ -1,4 +1,4 @@
-package com.simalakama.kharisazhar.forecastmvvm.data.response
+package com.simalakama.kharisazhar.forecastmvvm.data.db.entity
 
 data class Condition(
     val text: String,

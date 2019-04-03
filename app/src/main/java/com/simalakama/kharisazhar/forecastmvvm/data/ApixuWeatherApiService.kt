@@ -1,7 +1,7 @@
 package com.simalakama.kharisazhar.forecastmvvm.data
 
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
-import com.simalakama.kharisazhar.forecastmvvm.data.response.CurrentWeatherResponse
+import com.simalakama.kharisazhar.forecastmvvm.data.network.response.CurrentWeatherResponse
 import kotlinx.coroutines.Deferred
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
