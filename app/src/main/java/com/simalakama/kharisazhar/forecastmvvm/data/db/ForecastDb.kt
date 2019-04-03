@@ -12,6 +12,8 @@ import com.simalakama.kharisazhar.forecastmvvm.data.db.entity.CurrentWeatherEntr
     version = 1
 )
 abstract class ForecastDb : RoomDatabase() {
+    abstract fun currentWeatherDao(): CurrentWeatherDao
+
     companion object {
         @Volatile
         private var instance: ForecastDb? = null
